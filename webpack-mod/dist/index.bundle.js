@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -89,37 +89,26 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _name_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+__webpack_require__.r(__webpack_exports__);
 
-eval('var test = 1')
-/* harmony default export */ __webpack_exports__["a"] = (`hello ${_name_js__WEBPACK_IMPORTED_MODULE_0__[/* name */ "a"]}!`);
-
-/***/ }),
-/* 1 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return name; });
-const name = 'world';
+// CONCATENATED MODULE: ./src/name.js
+const name_name = 'world';
 // let c1 = 'c1'
 // let c2 = 'c2'
 // module.exports = {
 // 	c1,
 // 	c2,
 // }
+// CONCATENATED MODULE: ./src/message.js
 
-/***/ }),
-/* 2 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
+// eval('var test = 1')
+/* harmony default export */ var message = (`hello ${name_name}!`);
+// CONCATENATED MODULE: ./src/index.js
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "msg", function() { return msg; });
-/* harmony import */ var _message_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 
 
-const msg = _message_js__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"]
-/* harmony default export */ __webpack_exports__["default"] = (msgEntry = _message_js__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"] + '!');
+const msg = message
+/* harmony default export */ var src = __webpack_exports__["default"] = (msgEntry = message + '!');
 
 // var c = require('./name.js')
 // exports.default = c
